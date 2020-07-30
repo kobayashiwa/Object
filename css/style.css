@@ -5,7 +5,7 @@
 }
 body {
 	margin: 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	color: #2C3543;
 }
 a {
@@ -29,18 +29,19 @@ ul, li {
 	margin: 0 auto;
 	padding: 0 24px;
 }
+.Promotion {
+	display: flex;
+	flex-wrap: wrap;
+}
+.PromotionItem {
+	width: 50%;
+}
 
 /**
 
 
 
-.List-item {
-	width: 50%;
-	display: flex;
-	flex-wrap: wrap;
-	padding-left: 48px;
-	margin-bottom: 48px;
-}
+
 .detail {
 	width: 70%;
 	padding-right: 24px;
