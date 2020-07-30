@@ -55,17 +55,41 @@ h3 {
 .cover img {
 	width: 100%;
 }
+.description {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #7E838B;
+	font-weight: 300;
+	margin-bottom: 54px;
+}
+.with-arrow {
+	color: #297CBB;
+	font-size: 12px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+}
+.with-arrow span {
+	padding-right: 1em;
+}
+.with-arrow span::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 6px;
+	height: 6px;
+	border-top: 1px solid #297CBB;
+	border-right: 1px solid #297CBB;
+	transform: rotate(45deg);
+	margin-top: -5px;
+}
 
 
 /**
 
 
-
-
-.detail {
-	width: 70%;
-	padding-right: 24px;
-}
 .cover {
 	width: 30%;
 }
