@@ -24,6 +24,7 @@ h3 {
 	font-size: 28px;
 	font-weight: 300;
 	margin-bottom: 16px;
+	line-height: 1.2;
 }
 .Products {
 	margin: 128px 0;
@@ -85,19 +86,27 @@ h3 {
 	transform: rotate(45deg);
 	margin-top: -5px;
 }
+@media (max-width: 1000px) {
+	.Promotion {
+		flex-direction: column;
+		margin-left: 0;
+	}
+	.PromotionItem {
+		width: 100%;
+		padding-left: 0;
+		margin-bottom: 64px;
+		align-items: center;
+	}
+	.description {
+		margin-bottom: 24px;
+	}
+	
+}
 
 
 /**
 
 
-.cover {
-	width: 30%;
-}
-.cover img {
-	width: 100%;
-	max-width: 160px;
-	border-radius: 4px;
-}
 h3 {
 	font-size: 24px;
 	line-height: 1.2;
