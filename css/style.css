@@ -32,9 +32,23 @@ ul, li {
 .Promotion {
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: -40px;
 }
 .PromotionItem {
 	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 40px;
+}
+.PromotionItem-description {
+	width: 60%;
+	padding-right: 24px;
+}
+.cover {
+	width: 40%;
+}
+.cover img {
+	width: 100%;
 }
 
 /**
