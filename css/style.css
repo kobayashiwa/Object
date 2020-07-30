@@ -99,44 +99,19 @@ h3 {
 	}
 	.description {
 		margin-bottom: 24px;
-	}
-	
-}
-
-
-/**
-
-
-h3 {
-	font-size: 24px;
-	line-height: 1.2;
-	margin-bottom: 16px;
-}
-.List-item p {
-	font-size: 14px;
-	line-height: 1.5;
-	color: #7E838B;
-}
-@media (max-width: 1000px) {
-	.list {
-		margin-left: -32px;		
-	}
-	.List-item {
-		padding-left: 32px;
-	}
-	.detail {
-		padding-right: 16px;
-	}
-	h3 {
-		font-size: 16px;
-		margin-bottom: 8px;
-	}
+	}	
 }
 @media (max-width: 670px) {
-	.list {
+	.PromotionItem {
+		width: 100%;
 		flex-direction: column;
+		padding-left: 0;
 	}
-	.List-item {
+	.PromotionItem-description {
+		width: 100%;
+		padding-right: 0;
+	}
+	.cover {
 		width: 100%;
 	}
 }
